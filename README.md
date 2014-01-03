@@ -7,9 +7,10 @@ easier to remember what is what if you are thinking at [C]entrate as ```[C]enter
 In this version, you are trying to guess computer's 4digit number.
 
 Ex:
-Computer number: 1234
-Guess is: 1362
-Answer: 1[C] (number 1) and 2[N] (numbers 2 and 3)
+
+* Computer number: 1234
+* Guess is: 1362
+* Answer: 1[C] (number 1) and 2[N] (numbers 2 and 3)
 
 For more information about this game please visit [wikipedia](http://en.wikipedia.org/wiki/Bulls_and_cows).
 
