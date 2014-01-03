@@ -1,16 +1,17 @@
-cn-joc
-======
+###cn-joc
+---
 
-[C]entrate [N]ecentrate versus PC
+I call this [C]entrate [N]ecentrate, but actually this is bulls and cows in terminal mode. It's 
+easier to remember what is what if you are thinking at [C]entrate as ```[C]entered``` and [N]ecentrate as ```[N]ot centered```.
 
-Calculatorul generează un număr de 4 cifre distincte, iar utilizatorul trebuie să-l ghicească, ştiind în fiecare tură câte cifre are [C]entrate şi câte are [N]ecentrate. Cifră centrată înseamnă că pentru numărul ales de calculator şi numărul ales de utilizator poziţia corespunde, iar pentru cifră necentrată, poziţia nu corespunde.
+In this version, you are trying to guess computer's 4digit number.
 
-Ex de joc:<br>
-Calculatorul s-a gandit la un numar<br>
-3591  -  1[C] 1[N]<br>
-3542  -  1[C] 0[N]<br>
-3506  -  1[C] 1[N]<br>
-3089  -  2[C] 2[N]<br>
-3098  -  1[C] 3[N]<br>
-3980  -  4[C] 0[N]<br>
-Felicitari, ai ghicit numarul<br>
+Ex:
+Computer number: 1234
+Guess is: 1362
+Answer: 1[C] (number 1) and 2[N] (numbers 2 and 3)
+
+For more information about this game please visit [wikipedia](http://en.wikipedia.org/wiki/Bulls_and_cows).
+
+PS: I've made this to learn basics in python, if you have complaints about my code please contact /dev/null otherwise you can
+write me on my email address.
